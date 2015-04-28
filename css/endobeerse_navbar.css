@@ -1,3 +1,5 @@
+/* generated code from http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0 */
+
 @media (min-width: 768px) {
     
 }
@@ -65,14 +67,33 @@
 }
 
 
-
-
+/* added code */
 .navbar .navbar-nav {
-        display: inline-block;
-        float: none !important;
-        vertical-align: top;
-    }
+  display: inline-block;
+  float: none !important;
+  vertical-align: top;
+}
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* active gradients */
+ul.navbar-nav > li > a.active {
+  background-image:
+    radial-gradient(
+      circle,
+      #fd9267,
+      #fa4c06
+    );
+}
+
+ul.navbar-nav > li > a:hover {
+  background-image:
+    linear-gradient(
+      to top, 
+      #fff,
+      #fff 7%,
+      #fa4c06 7%
+    );
+}
