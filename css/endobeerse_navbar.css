@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+    
+}
+
+
+
+.navbar-default {
+  background-color: #fa4c06;
+  border-color: #fd9267;
+}
+.navbar-default .navbar-brand {
+  color: #fff3ee;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff3ee;
+}
+.navbar-default .navbar-text {
+  color: #fff3ee;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff3ee;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff3ee;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff3ee;
+  background-color: #fd9267;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff3ee;
+  background-color: #fd9267;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fd9267;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fd9267;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff3ee;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fff3ee;
+}
+.navbar-default .navbar-link {
+  color: #fff3ee;
+}
+.navbar-default .navbar-link:hover {
+  color: #fff3ee;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff3ee;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff3ee;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff3ee;
+    background-color: #fd9267;
+  }
+}
+
+
+
+
+.navbar .navbar-nav {
+        display: inline-block;
+        float: none !important;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
